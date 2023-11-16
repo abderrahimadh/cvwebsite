@@ -1,0 +1,150 @@
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+  margin: auto;
+  max-width: 900px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  justify-content: space-between; 
+  height: 160px;
+  padding-top: -10px;
+  color: white;
+  background-color: #333;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 18px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+.photo {
+  margin-left: 7%;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+}
+
+.des{
+  margin-left: 10px;
+  margin-top: -10%;
+  align-items: center; 
+}   
+h3{
+  color: #13c3ba;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  font-size: 20px;
+}
+.post{
+  color: orange;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+.right{
+  padding: 0;
+  margin: -25%;
+  margin-top: -10%;
+}
+.right p{
+ margin-left: 600px;
+ letter-spacing: .1rem;    
+}
+.info{
+  width: 20px;
+  height: 20px;
+}
+.section-left{
+  background-color: white;
+  float: left;
+  width: 400px;
+}
+.section-right{
+  background-color: white;
+  float: right;
+  width: 400px;
+}
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divisez l'espace en deux colonnes de largeur égale */
+  gap: 10px; /* Espace entre les deux colonnes */
+}
+@media screen and (max-width: 768px) {
+  .sections {
+    grid-template-columns: 1fr; /* Une seule colonne sur les petits écrans */
+  }
+}
+h4{
+  margin-left: 10%;
+  color: #13c3ba;
+  letter-spacing: .1rem;
+  font-size: 18px;
+}
+.atouts{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 10%;
+}
+hr.light{
+  border-top: 2px solid #13c3ba;
+  width: 90%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+ }
+.div{
+  margin-left: 10%;
+}
+
+.skls {
+  padding: 0px;
+  width: 40%;
+  margin-left: 10%
+}
+.cool {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  width: 300px;
+  height: 7px;
+}
+
+.po {
+  margin-top: 20px;
+}
+strong{
+  color: #13c3ba;
+  text-decoration: none; 
+}
+.inner {
+  height: 100%;
+  background-color:  orange;
+}
+.interet{
+  margin-left: 10%;
+}
+span{
+  margin-left: 10px;
+}
